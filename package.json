@@ -1,11 +1,14 @@
 {
   "name": "wowhead-fetch",
   "version": "0.0.1",
-  "description": "Wowhead API package",
+  "description": "Fetch data from https://www.wowhead.com",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "eyes": "^0.1.8",
+    "xml2js": "^0.4.23"
+  }
 }

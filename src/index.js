@@ -2,7 +2,9 @@ const config = require('../config.json');
 
 global.gConfig = config;
 
-const { classic } = require('../bin/apis/index');
+const apis = require('../bin/apis/index');
+
+module.exports = { apis };
 
 process.on('uncaughtException', err => {
     console.error('An error occurred', err)

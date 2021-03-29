@@ -1,3 +1,3 @@
-const classic = require('classic');
+const classic = require('./classic');
 
 module.exports = { classic };

@@ -1,8 +1,8 @@
 {
   "wowhead": {
     "api_endpoints": {
-      "en": "https://classic.wowhead.com",
-      "fr": "https://fr.classic.wowhead.com"
+      "classic": "classic.wowhead.com",
+      "retail": "wowhead.com"
     },
     "api_routes": {
       "get_item": "/item="
