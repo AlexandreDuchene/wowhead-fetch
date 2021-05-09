@@ -10,4 +10,9 @@ function convertXmlItemToObject(xml)
     return object;
 }
 
-module.exports = { convertXmlItemToObject };
+function extractJsonData(item) {
+    const jsonString = item.json.toString() +',' + item.jsonEquip.toString();
+    return JSON.parse('{' + jsonString + '}');
+}
+
+module.exports = { convertXmlItemToObject, extractJsonData };
